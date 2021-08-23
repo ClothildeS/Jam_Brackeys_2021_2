@@ -13,10 +13,14 @@ public class MonsterBehaviour : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-
-        if (other.collider.tag == "MonsterDestroy")
+        // If the collider can be destroyed and is sensitive to monsters, destroy it at collision
+        if (other.collider.GetComponent<Sensitivities>() != null)
         {
-            Destroy(other.collider.gameObject);
+            if (other.collider.GetComponent<Sensitivities>().destroyedByMonster == true)
+            {
+                Destroy(other.collider.gameObject);
+            }
+
         }
 
 

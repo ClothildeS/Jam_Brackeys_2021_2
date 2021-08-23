@@ -7,18 +7,22 @@ public class ProjectileDeath : MonoBehaviour
     public float lifeTime = 6;
     private float counter;
 
-    // The projectile destroys itself when colliding with something, but if it is something it can destroy,
-    // it will destroy the collider object
+
     private void OnCollisionEnter2D(Collision2D other)
     {
 
-        if (other.collider.tag == "ProjectileDestroy")
+        // If the collider can be destroyed and is sensitive to projectiles, destroy it at collision
+        if (other.collider.GetComponent<Sensitivities>() != null)
         {
-            Destroy(other.collider.gameObject);
+
+            if (other.collider.GetComponent<Sensitivities>().destroyedByProjectile == true)
+            {
+
+                Destroy(other.collider.gameObject);
+            }
+
+            Destroy(gameObject);
         }
-
-        Destroy(gameObject);
-
     }
 
     private void Update()
