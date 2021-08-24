@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8261767702350619791}
   - component: {fileID: 9109867432103056032}
+  - component: {fileID: 556325167344563140}
   m_Layer: 0
   m_Name: GazPortal
   m_TagString: Untagged
@@ -84,6 +85,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &556325167344563140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1856223224830654755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50bb59ff5a6eded4a8afda3266e876bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  usedLayerMask:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!1 &8041476920561082381
 GameObject:
   m_ObjectHideFlags: 0
