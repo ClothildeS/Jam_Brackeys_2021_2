@@ -263,7 +263,7 @@ MonoBehaviour:
   monsterPortal: {fileID: 5583355442538027485, guid: 6dc94f9dcad571d42a55a939666efc43, type: 3}
   gazPortal: {fileID: 1856223224830654755, guid: fde41fb596979564fa4affb44240cbcd, type: 3}
   aspirationPortal: {fileID: 7735943619679778364, guid: 50e73917abfb85c46b708a8c33a013a8, type: 3}
-  firePortal: {fileID: 167056746925253612, guid: 92cb6d3d3a2f97d46a8be7269765192f, type: 3}
+  firePortal: {fileID: 6303328697194140790, guid: ef1ade038fc8419489cf019c34116c91, type: 3}
 --- !u!1 &154961752
 GameObject:
   m_ObjectHideFlags: 0
@@ -277,6 +277,7 @@ GameObject:
   - component: {fileID: 154961753}
   - component: {fileID: 154961756}
   - component: {fileID: 154961757}
+  - component: {fileID: 154961758}
   m_Layer: 0
   m_Name: ProjectileTarget
   m_TagString: Untagged
@@ -414,6 +415,29 @@ MonoBehaviour:
   destroyedByAspiration: 0
   destroyedByFire: 0
   health: 10
+--- !u!114 &154961758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 154961752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/Human_Death
+  PlayEvent: 2
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &197885957
 GameObject:
   m_ObjectHideFlags: 0
@@ -1517,6 +1541,63 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 620506682}
   m_CullTransparentMesh: 1
+--- !u!1001 &782773670
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1919335872745597001, guid: a4b5ef5180b3f014ba9b4d4d2d038ea6, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919335872745597001, guid: a4b5ef5180b3f014ba9b4d4d2d038ea6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919335872745597001, guid: a4b5ef5180b3f014ba9b4d4d2d038ea6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919335872745597001, guid: a4b5ef5180b3f014ba9b4d4d2d038ea6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919335872745597001, guid: a4b5ef5180b3f014ba9b4d4d2d038ea6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919335872745597001, guid: a4b5ef5180b3f014ba9b4d4d2d038ea6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919335872745597001, guid: a4b5ef5180b3f014ba9b4d4d2d038ea6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919335872745597001, guid: a4b5ef5180b3f014ba9b4d4d2d038ea6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919335872745597001, guid: a4b5ef5180b3f014ba9b4d4d2d038ea6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919335872745597001, guid: a4b5ef5180b3f014ba9b4d4d2d038ea6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919335872745597001, guid: a4b5ef5180b3f014ba9b4d4d2d038ea6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919335872745597003, guid: a4b5ef5180b3f014ba9b4d4d2d038ea6, type: 3}
+      propertyPath: m_Name
+      value: Ambience
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a4b5ef5180b3f014ba9b4d4d2d038ea6, type: 3}
 --- !u!1 &787295998
 GameObject:
   m_ObjectHideFlags: 0
@@ -2466,7 +2547,7 @@ GameObject:
   - component: {fileID: 1626044343}
   m_Layer: 8
   m_Name: AspirationTarget (1)
-  m_TagString: Untagged
+  m_TagString: AspirationDestroy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2763,7 +2844,7 @@ GameObject:
   - component: {fileID: 1701142435}
   m_Layer: 8
   m_Name: AspirationTarget
-  m_TagString: Untagged
+  m_TagString: AspirationDestroy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2927,7 +3008,7 @@ GameObject:
   - component: {fileID: 2061531025}
   m_Layer: 8
   m_Name: AspirationTarget (2)
-  m_TagString: Untagged
+  m_TagString: AspirationDestroy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
