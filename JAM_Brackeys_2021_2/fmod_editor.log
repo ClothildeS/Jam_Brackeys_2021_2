@@ -7,7 +7,7 @@
 [LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x8000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 0000019AB6324BC8 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 0000017326A00068 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -18,54 +18,182 @@
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
 [LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 3
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 1568832
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 1856
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000041E2EFF378
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB6C4060E0
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB6C4060B0
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB6C4061B0
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB6C406270
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000019A2A362678
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Sound design_Aspiration_Idle', format=5, channels=1, frequency=48000, lengthbytes=246560, lengthpcm=453111, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.017299.
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 1568832
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 1856
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000041E2EFF378
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB6C4060E0
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB6C4060B0
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB6C4061B0
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB6C406270
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000019A26A45E08
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Sound design_Aspiration', format=5, channels=1, frequency=48000, lengthbytes=48864, lengthpcm=87168, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.242705.
-[LOG] SoundI::release                          :  (0000019A1DDA6258)
-[LOG] SoundI::release                          :     Sound design_Aspiration (0000019A2A936A28)
-[LOG] SoundI::release                          : StandingTheme_Bass (0000019AB24E0508)
-[LOG] SoundI::release                          :     StandingTheme_Bass (0000019A2A936548)
-[LOG] SoundI::release                          :     StandingTheme_Bass (0000019AB6AEBC68)
-[LOG] SoundI::release                          : StandingTheme_Melody (0000019AB24E15E8)
-[LOG] SoundI::release                          :     StandingTheme_Melody (0000019A2A939AE8)
-[LOG] SoundI::release                          :     StandingTheme_Melody (0000019AB24E0D78)
-[LOG] SoundI::release                          : Sound design_amb_prairie (0000019AB24E0BC8)
-[LOG] SoundI::release                          :     Sound design_amb_prairie (0000019A2A9397A8)
-[LOG] SoundI::release                          :     Sound design_amb_prairie (0000019AB6AEC4D8)
-[LOG] SoundI::release                          : Sound design_amb_empty (0000019AB24E06B8)
-[LOG] SoundI::release                          :     Sound design_amb_empty (0000019A2A937248)
-[LOG] SoundI::release                          :     Sound design_amb_empty (0000019AB6AEBE18)
-[LOG] SoundI::release                          :  (0000019AD9A074B8)
-[LOG] SoundI::release                          :     Sound design_Aspiration_Idle (0000019A2A936888)
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000173478AF048
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000173478AF048
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000173478B07E8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000173478B07E8
+[LOG] SoundI::release                          : StandingTheme_Melody (0000017320C06798)
+[LOG] SoundI::release                          :     StandingTheme_Melody (000001729159B838)
+[LOG] SoundI::release                          :     StandingTheme_Melody (00000173478AEB38)
+[LOG] SoundI::release                          : StandingTheme_Melody (00000173478AF1F8)
+[LOG] SoundI::release                          :     StandingTheme_Melody (000001729159BD18)
+[LOG] SoundI::release                          :     StandingTheme_Melody (00000173478AF048)
+[LOG] SystemI::createSound                     : filename = Assets/FMODBanks/Desktop/Master.streams.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 00000173478AEB38 : node = 00000173271AA820
+[LOG] SystemI::createSound                     : add node to async list : head = 00000173208EECA8.  list count = 0
+[LOG] SystemI::createSound                     : filename = Assets/FMODBanks/Desktop/Master.streams.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 00000173478AF1F8 : node = 00000173271ACEE0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000173478AEB38
+[LOG] SystemI::createSound                     : add node to async list : head = 00000173208EECA8.  list count = 0
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/FMODBanks/Desktop/Master.streams.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 17546560
+[LOG] SystemI::createSound                     :     filename = Assets/FMODBanks/Desktop/Master.streams.bank : mode 02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 832
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSound                     :     setdata soundi = 0000017320C06798 : node = 00000173271AD160
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000173271AA930
+[LOG] SystemI::createSound                     :     add node to async list : head = 00000173208EECA8.  list count = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSound                     :     filename = Assets/FMODBanks/Desktop/Master.streams.bank : mode 02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSound                     :     setdata soundi = 0000017326C7A318 : node = 00000173271AB4A0
+[LOG] SystemI::createSound                     :     add node to async list : head = 00000173208EECA8.  list count = 2
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='StandingTheme_Melody', format=5, channels=1, frequency=48000, lengthbytes=464096, lengthpcm=1044923, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.081044.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000173478AEB38
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000173478AF1F8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/FMODBanks/Desktop/Master.streams.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 17546560
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 832
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000173271ACFF0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='StandingTheme_Bass', format=5, channels=2, frequency=48000, lengthbytes=996352, lengthpcm=1435520, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.110537.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000173478AF1F8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000017320C06798
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/FMODBanks/Desktop/Master.streams.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 17546560
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 832
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000173271AD270
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='StandingTheme_Melody', format=5, channels=1, frequency=48000, lengthbytes=464096, lengthpcm=1044923, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.081044.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000017320C06798
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000017326C7A318
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/FMODBanks/Desktop/Master.streams.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 17546560
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 832
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000173271AB5B0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='StandingTheme_Bass', format=5, channels=2, frequency=48000, lengthbytes=996352, lengthpcm=1435520, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.110537.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000017326C7A318
+[LOG] SoundI::release                          : StandingTheme_Bass (00000173478B0638)
+[LOG] SoundI::release                          :     StandingTheme_Bass (000001729159BEB8)
+[LOG] SoundI::release                          :     StandingTheme_Bass (00000173478AFA68)
+[LOG] SoundI::release                          : StandingTheme_Bass (0000017320C06288)
+[LOG] SoundI::release                          :     StandingTheme_Bass (000001729159C058)
+[LOG] SoundI::release                          :     StandingTheme_Bass (00000173478B0488)
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000173478AECE8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000173478AECE8
+[LOG] SoundI::release                          : StandingTheme_Melody (00000173478AEB38)
+[LOG] SoundI::release                          :     StandingTheme_Melody (000001729AC9CA98)
+[LOG] SoundI::release                          :     StandingTheme_Melody (0000017326C7AB88)
+[LOG] SoundI::release                          : StandingTheme_Melody (0000017320C06798)
+[LOG] SoundI::release                          :     StandingTheme_Melody (000001729AC9CF78)
+[LOG] SoundI::release                          :     StandingTheme_Melody (0000017326C79238)
+[LOG] SystemI::createSound                     : filename = Assets/FMODBanks/Desktop/Master.streams.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0000017326C79088 : node = 0000017296EB9C40
+[LOG] SystemI::createSound                     : add node to async list : head = 00000173208EECA8.  list count = 0
+[LOG] SystemI::createSound                     : filename = Assets/FMODBanks/Desktop/Master.streams.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0000017326C793E8 : node = 0000017296EB9380
+[LOG] SystemI::createSound                     : add node to async list : head = 00000173208EECA8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000017326C79088
+[LOG] SystemI::createSound                     : filename = Assets/FMODBanks/Desktop/Master.streams.bank : mode 02010082
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/FMODBanks/Desktop/Master.streams.bank', mode=0x02010082
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSound                     :     setdata soundi = 0000017326C7A678 : node = 0000017296EBB400
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 17546560
+[LOG] SystemI::createSound                     :     add node to async list : head = 00000173208EECA8.  list count = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 832
+[LOG] SystemI::createSound                     :     filename = Assets/FMODBanks/Desktop/Master.streams.bank : mode 02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000017296EB9D50
+[LOG] SystemI::createSound                     :     setdata soundi = 0000017326C79748 : node = 0000017296EB80C0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSound                     :     add node to async list : head = 00000173208EECA8.  list count = 2
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='StandingTheme_Melody', format=5, channels=1, frequency=48000, lengthbytes=464096, lengthpcm=1044923, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.081044.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000017326C79088
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000017326C793E8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/FMODBanks/Desktop/Master.streams.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 17546560
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 832
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000017296EB9490
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='StandingTheme_Bass', format=5, channels=2, frequency=48000, lengthbytes=996352, lengthpcm=1435520, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.110537.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000017326C793E8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000017326C7A678
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/FMODBanks/Desktop/Master.streams.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 17546560
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 832
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000017296EBB510
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='StandingTheme_Melody', format=5, channels=1, frequency=48000, lengthbytes=464096, lengthpcm=1044923, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.081044.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000017326C7A678
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000017326C79748
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/FMODBanks/Desktop/Master.streams.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 17546560
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 832
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000017296EB81D0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='StandingTheme_Bass', format=5, channels=2, frequency=48000, lengthbytes=996352, lengthpcm=1435520, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.110537.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000017326C79748
+[LOG] SoundI::release                          : StandingTheme_Bass (0000017326C7A318)
+[LOG] SoundI::release                          :     StandingTheme_Bass (000001729AC9D118)
+[LOG] SoundI::release                          :     StandingTheme_Bass (0000017326C7A4C8)
+[LOG] SoundI::release                          : StandingTheme_Bass (00000173478AF1F8)
+[LOG] SoundI::release                          :     StandingTheme_Bass (000001729AC9CDD8)
+[LOG] SoundI::release                          :     StandingTheme_Bass (0000017326C79FB8)
+[LOG] SoundI::release                          : StandingTheme_Bass (0000017326C79748)
+[LOG] SoundI::release                          :     StandingTheme_Bass (000001729159C058)
+[LOG] SoundI::release                          :     StandingTheme_Bass (0000017326C79AA8)
+[LOG] SoundI::release                          : StandingTheme_Melody (0000017326C7A678)
+[LOG] SoundI::release                          :     StandingTheme_Melody (000001729159B838)
+[LOG] SoundI::release                          :     StandingTheme_Melody (0000017326C798F8)
+[LOG] SoundI::release                          : StandingTheme_Bass (0000017326C793E8)
+[LOG] SoundI::release                          :     StandingTheme_Bass (000001729AC9CF78)
+[LOG] SoundI::release                          :     StandingTheme_Bass (0000017326C7A168)
+[LOG] SoundI::release                          : StandingTheme_Melody (0000017326C79088)
+[LOG] SoundI::release                          :     StandingTheme_Melody (000001729AC9CA98)
+[LOG] SoundI::release                          :     StandingTheme_Melody (0000017326C7A828)
+[LOG] SoundI::release                          : Sound design_amb_prairie (00000173478AFC18)
+[LOG] SoundI::release                          :     Sound design_amb_prairie (000001729159C878)
+[LOG] SoundI::release                          :     Sound design_amb_prairie (00000173478AECE8)
+[LOG] SoundI::release                          : Sound design_amb_empty (0000017320C06CA8)
+[LOG] SoundI::release                          :     Sound design_amb_empty (000001729159B9D8)
+[LOG] SoundI::release                          :     Sound design_amb_empty (00000173478B07E8)
 [LOG] Thread::callback                         : FMOD Studio update thread finished.
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
