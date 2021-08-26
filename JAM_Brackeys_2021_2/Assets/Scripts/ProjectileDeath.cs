@@ -7,6 +7,11 @@ public class ProjectileDeath : MonoBehaviour
     public float lifeTime = 6;
     private float counter;
 
+    [FMODUnity.EventRef]
+    public string SoundEvent = "";
+    FMOD.Studio.EventInstance projectileDeath;
+
+
 
     private void OnCollisionEnter2D(Collision2D other)
     {
@@ -17,11 +22,13 @@ public class ProjectileDeath : MonoBehaviour
 
             if (other.collider.GetComponent<Sensitivities>().destroyedByProjectile == true)
             {
-
+                PlaySound();
                 Destroy(other.collider.gameObject);
             }
 
+            PlaySound();
             Destroy(gameObject);
+
         }
     }
 
@@ -35,5 +42,13 @@ public class ProjectileDeath : MonoBehaviour
             //Debug.Log("Projectile's lifetime expired");
             Destroy(gameObject);
         }
+    }
+
+
+
+    public void PlaySound()
+    {
+        projectileDeath = FMODUnity.RuntimeManager.CreateInstance(SoundEvent);
+        projectileDeath.start();
     }
 }

@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2477938565499364157
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2477938565499364158}
+  - component: {fileID: 2477938565499364159}
+  m_Layer: 0
+  m_Name: PortalsSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2477938565499364158
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2477938565499364157}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2477938565499364159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2477938565499364157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4f3295fada3f1f4fa35dac43fb459ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectilePortal: {fileID: 2945397882829919103, guid: 28acab11a19f560458dcd4b8a62cf682, type: 3}
+  monsterPortal: {fileID: 5583355442538027485, guid: 6dc94f9dcad571d42a55a939666efc43, type: 3}
+  gazPortal: {fileID: 1856223224830654755, guid: fde41fb596979564fa4affb44240cbcd, type: 3}
+  aspirationPortal: {fileID: 7735943619679778364, guid: 50e73917abfb85c46b708a8c33a013a8, type: 3}
+  firePortal: {fileID: 6303328697194140790, guid: ef1ade038fc8419489cf019c34116c91, type: 3}
