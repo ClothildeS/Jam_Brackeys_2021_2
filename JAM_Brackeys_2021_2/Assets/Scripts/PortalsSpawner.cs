@@ -39,7 +39,7 @@ public class PortalsSpawner : MonoBehaviour
                 {
                     // Convert mouse position relative to the screen
                     Vector3 mousePos = Input.mousePosition;
-                    mousePos.z = 2.0f;       // we want 2m away from the camera position
+                    mousePos.z = 20f;       // we want 2m away from the camera position
                     Vector3 objectPos = Camera.main.ScreenToWorldPoint(mousePos);
                     objectPos = new Vector3(objectPos.x, objectPos.y, 0);
 

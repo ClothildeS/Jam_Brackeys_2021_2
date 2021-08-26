@@ -7,7 +7,7 @@
 [LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x8000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 000002C089938BD8 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 0000019AB6324BC8 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -18,12 +18,54 @@
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
 [LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
 [LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 3
-[LOG] SoundI::release                          : Sound design_amb_prairie (000002C04AE93658)
-[LOG] SoundI::release                          :     Sound design_amb_prairie (000002BFBDAC82C8)
-[LOG] SoundI::release                          :     Sound design_amb_prairie (000002C089A88528)
-[LOG] SoundI::release                          : Sound design_amb_empty (000002C04AE93B68)
-[LOG] SoundI::release                          :     Sound design_amb_empty (000002BFBDAC2148)
-[LOG] SoundI::release                          :     Sound design_amb_empty (000002C089A85E58)
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 1568832
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 1856
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000041E2EFF378
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB6C4060E0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB6C4060B0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB6C4061B0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB6C406270
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000019A2A362678
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Sound design_Aspiration_Idle', format=5, channels=1, frequency=48000, lengthbytes=246560, lengthpcm=453111, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.017299.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 1568832
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 1856
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000041E2EFF378
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB6C4060E0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB6C4060B0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB6C4061B0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB6C406270
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000019A26A45E08
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Sound design_Aspiration', format=5, channels=1, frequency=48000, lengthbytes=48864, lengthpcm=87168, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.242705.
+[LOG] SoundI::release                          :  (0000019A1DDA6258)
+[LOG] SoundI::release                          :     Sound design_Aspiration (0000019A2A936A28)
+[LOG] SoundI::release                          : StandingTheme_Bass (0000019AB24E0508)
+[LOG] SoundI::release                          :     StandingTheme_Bass (0000019A2A936548)
+[LOG] SoundI::release                          :     StandingTheme_Bass (0000019AB6AEBC68)
+[LOG] SoundI::release                          : StandingTheme_Melody (0000019AB24E15E8)
+[LOG] SoundI::release                          :     StandingTheme_Melody (0000019A2A939AE8)
+[LOG] SoundI::release                          :     StandingTheme_Melody (0000019AB24E0D78)
+[LOG] SoundI::release                          : Sound design_amb_prairie (0000019AB24E0BC8)
+[LOG] SoundI::release                          :     Sound design_amb_prairie (0000019A2A9397A8)
+[LOG] SoundI::release                          :     Sound design_amb_prairie (0000019AB6AEC4D8)
+[LOG] SoundI::release                          : Sound design_amb_empty (0000019AB24E06B8)
+[LOG] SoundI::release                          :     Sound design_amb_empty (0000019A2A937248)
+[LOG] SoundI::release                          :     Sound design_amb_empty (0000019AB6AEBE18)
+[LOG] SoundI::release                          :  (0000019AD9A074B8)
+[LOG] SoundI::release                          :     Sound design_Aspiration_Idle (0000019A2A936888)
 [LOG] Thread::callback                         : FMOD Studio update thread finished.
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] Profile::disconnectAll                   : Profiler disconnecting all clients

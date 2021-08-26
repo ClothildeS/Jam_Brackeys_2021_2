@@ -1,19 +1,23 @@
-    Shader "Custom/InvisibleMask" {
-      SubShader {
-		// Render the mask after regular geometry, but before masked geometry and
-		// transparent things.
+ Shader "Custom/MaskTest" {
  
-		Tags {"Queue" = "Geometry+10" }
- 
-		// Don't draw in the RGBA channels; just the depth buffer
- 
-		ColorMask 0
-		ZWrite On
- 
-		// Do nothing specific in the pass:
- 
-		Pass {}
-      }
-      
-	} 
+     Properties
+     {
+         _MainTex ("Base (RGB) Alpha (A)", 2D) = "white" {}
+         _Cutoff ("Base Alpha cutoff", Range (0,.9)) = .5
+     }
+  
+     SubShader {  
+         Tags {"Queue" = "Transparent"}
+          Offset 0, -1
+         ColorMask 0
+         ZWrite On
+         Pass
+         {
+             AlphaTest Greater [_Cutoff]      
+             SetTexture [_MainTex] {
+                 combine texture * primary, texture
+             }
+         }
+     }
+} 
     
