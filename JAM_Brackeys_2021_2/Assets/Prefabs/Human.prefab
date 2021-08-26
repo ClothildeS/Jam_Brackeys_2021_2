@@ -323,6 +323,8 @@ MonoBehaviour:
   destroyedByAspiration: 1
   destroyedByFire: 0
   health: 10
+  fameEarning: 0
+  destroyedSound: event:/Human_Death
 --- !u!50 &4851344950489270035
 Rigidbody2D:
   serializedVersion: 4

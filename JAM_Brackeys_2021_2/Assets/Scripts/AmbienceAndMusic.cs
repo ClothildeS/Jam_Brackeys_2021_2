@@ -9,6 +9,8 @@ public class AmbienceAndMusic : MonoBehaviour
     [FMODUnity.EventRef]
     public string Music = "";
 
+
+
     FMOD.Studio.EventInstance ambienceInst;
     FMOD.Studio.EventInstance musicInst;
 
@@ -20,8 +22,10 @@ public class AmbienceAndMusic : MonoBehaviour
     {
         ambienceInst = FMODUnity.RuntimeManager.CreateInstance(Ambience);
         ambienceInst.start();
+        ambienceInst.release();
         musicInst = FMODUnity.RuntimeManager.CreateInstance(Music);
         musicInst.start();
+        musicInst.release();
     }
 
     private void Update()
@@ -29,5 +33,6 @@ public class AmbienceAndMusic : MonoBehaviour
         ambienceInst.setParameterByName("Fame", ScoreManager.fameScore);
         musicInst.setParameterByName("Fame", ScoreManager.fameScore);
     }
+
 
 }

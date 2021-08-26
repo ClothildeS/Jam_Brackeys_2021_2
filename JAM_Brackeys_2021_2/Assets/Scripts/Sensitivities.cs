@@ -11,14 +11,21 @@ public class Sensitivities : MonoBehaviour
     public bool destroyedByFire;
 
     public float health = 10f;
+    public float fameEarning;
 
+    [FMODUnity.EventRef]
+    public string destroyedSound = "";
+
+    FMOD.Studio.EventInstance destroyInst;
 
 
     private void Update()
     {
-        // if health of gameobject equals or is below zero, destroy itself
+        // if health of gameobject equals or is below zero, play sound and destroy itself
         if (health <= 0)
         {
+            destroyInst = FMODUnity.RuntimeManager.CreateInstance(destroyedSound);
+            destroyInst.start();
             Destroy(gameObject);
         }
 
@@ -34,6 +41,11 @@ public class Sensitivities : MonoBehaviour
     {
         // Debug.Log("Target senses collision with particle");
         TakeDamage(1);
+    }
+
+    private void OnDestroy()
+    {
+        ScoreManager.fameScore = ScoreManager.fameScore + fameEarning;
     }
 
 
