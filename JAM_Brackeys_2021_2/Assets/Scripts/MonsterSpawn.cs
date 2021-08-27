@@ -7,7 +7,9 @@ public class MonsterSpawn : MonoBehaviour
     public GameObject monster;
     public float appearanceSpeed = 1f;
     public float appearanceForce = 120f;
-    public int maximumMonster = 5;
+    public int maximumMonster = 3;
+    public float xOffset;
+    public float yOffset;
     private float appearanceFrequency;
     private float counter;
     private int monsterNumber = 0;
@@ -20,8 +22,9 @@ public class MonsterSpawn : MonoBehaviour
 
         if (counter >= appearanceFrequency && monsterNumber != maximumMonster)
         {
+            Vector3 monsterPos = new Vector3(transform.position.x + xOffset, transform.position.y + yOffset, 0);
             // Instantiate projectile and give it a force
-            GameObject projectileLaunched = Instantiate(monster, transform.position, Quaternion.identity) as GameObject;
+            GameObject projectileLaunched = Instantiate(monster, monsterPos, Quaternion.identity) as GameObject;
             projectileLaunched.GetComponent<Rigidbody2D>().AddForce(transform.right * appearanceForce);
 
             counter = 0;

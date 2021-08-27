@@ -23,6 +23,12 @@ public class MonsterBehaviour : MonoBehaviour
 
         }
 
+        // if the other collider is a hero, take damage
+        if (other.collider.name.Contains("Hero"))
+        {
+            GetComponent<Sensitivities>().TakeDamage(50);
+        }
+
 
     }
 }

@@ -115,6 +115,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b5bde70eae2c534bb6878bd0eb57ecd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sound3D: 1
   PlayerStateEvent: event:/Ghost
 --- !u!1 &4370642555607461631
 GameObject:

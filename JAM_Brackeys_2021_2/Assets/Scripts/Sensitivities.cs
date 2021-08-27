@@ -25,6 +25,7 @@ public class Sensitivities : MonoBehaviour
         if (health <= 0)
         {
             destroyInst = FMODUnity.RuntimeManager.CreateInstance(destroyedSound);
+            destroyInst.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject.transform));
             destroyInst.start();
             Destroy(gameObject);
         }

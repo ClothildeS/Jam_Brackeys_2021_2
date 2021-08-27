@@ -97,10 +97,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc2b5b55d9ef9fc44ad28ab502d3101c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  monster: {fileID: 1181518618033492087, guid: 9e9da396773546c42b66f99a84b262a0, type: 3}
-  appearanceSpeed: 0.5
+  monster: {fileID: 305270900613365465, guid: 46a5931bb61b9f44998f7f5ec024f8df, type: 3}
+  appearanceSpeed: 0.2
   appearanceForce: 150
-  maximumMonster: 5
+  maximumMonster: 3
+  xOffset: 3
+  yOffset: -6
 --- !u!95 &8009462906332281969
 Animator:
   serializedVersion: 3
