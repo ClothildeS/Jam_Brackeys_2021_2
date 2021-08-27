@@ -262,7 +262,7 @@ GameObject:
   - component: {fileID: 5909472033795274808}
   m_Layer: 8
   m_Name: Human
-  m_TagString: AspirationDestroy
+  m_TagString: MonsterDestroy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

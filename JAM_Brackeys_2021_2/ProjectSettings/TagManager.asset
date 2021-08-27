@@ -8,6 +8,7 @@ TagManager:
   - ProjectileDestroy
   - MonsterDestroy
   - AspirationDestroy
+  - Human
   layers:
   - Default
   - TransparentFX
@@ -18,8 +19,8 @@ TagManager:
   - Gaz
   - Fire
   - Aspiration
-  - 
-  - 
+  - Obstacle
+  - Monster
   - 
   - 
   - 

@@ -100,9 +100,9 @@ MonoBehaviour:
   monster: {fileID: 305270900613365465, guid: 46a5931bb61b9f44998f7f5ec024f8df, type: 3}
   appearanceSpeed: 0.2
   appearanceForce: 150
-  maximumMonster: 3
-  xOffset: 3
-  yOffset: -6
+  maximumMonster: 1
+  xOffset: 0
+  yOffset: 0
 --- !u!95 &8009462906332281969
 Animator:
   serializedVersion: 3
