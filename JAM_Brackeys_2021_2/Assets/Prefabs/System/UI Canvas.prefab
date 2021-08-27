@@ -461,7 +461,6 @@ GameObject:
   - component: {fileID: 6597073052634543611}
   - component: {fileID: 6597073052634543608}
   - component: {fileID: 6597073052634543609}
-  - component: {fileID: 5345724227012253316}
   m_Layer: 5
   m_Name: ProjectileButton
   m_TagString: Untagged
@@ -583,19 +582,6 @@ MonoBehaviour:
           m_StringArgument: projectile
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &5345724227012253316
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6597073052634543111}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b5bde70eae2c534bb6878bd0eb57ecd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PlayerStateEvent: event:/UI_Portals
 --- !u!1 &6597073052730097007
 GameObject:
   m_ObjectHideFlags: 0
@@ -1226,7 +1212,6 @@ GameObject:
   - component: {fileID: 6597073053223738096}
   - component: {fileID: 6597073053223738097}
   - component: {fileID: 6597073053223738110}
-  - component: {fileID: 4167833472541992982}
   m_Layer: 5
   m_Name: MonsterButton
   m_TagString: Untagged
@@ -1348,19 +1333,6 @@ MonoBehaviour:
           m_StringArgument: monster
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &4167833472541992982
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6597073053223738108}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b5bde70eae2c534bb6878bd0eb57ecd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PlayerStateEvent: event:/UI_Portals
 --- !u!1 &6597073053890841515
 GameObject:
   m_ObjectHideFlags: 0
@@ -1373,7 +1345,6 @@ GameObject:
   - component: {fileID: 6597073053890841519}
   - component: {fileID: 6597073053890841516}
   - component: {fileID: 6597073053890841517}
-  - component: {fileID: 3688440864035060812}
   m_Layer: 5
   m_Name: GazButton
   m_TagString: Untagged
@@ -1495,19 +1466,6 @@ MonoBehaviour:
           m_StringArgument: gaz
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &3688440864035060812
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6597073053890841515}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b5bde70eae2c534bb6878bd0eb57ecd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PlayerStateEvent: event:/UI_Portals
 --- !u!1 &6597073053991688739
 GameObject:
   m_ObjectHideFlags: 0
@@ -1520,7 +1478,6 @@ GameObject:
   - component: {fileID: 6597073053991688743}
   - component: {fileID: 6597073053991688740}
   - component: {fileID: 6597073053991688741}
-  - component: {fileID: 6576928978797997762}
   m_Layer: 5
   m_Name: FireButton
   m_TagString: Untagged
@@ -1642,19 +1599,6 @@ MonoBehaviour:
           m_StringArgument: fire
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &6576928978797997762
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6597073053991688739}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b5bde70eae2c534bb6878bd0eb57ecd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PlayerStateEvent: event:/UI_Portals
 --- !u!1 &6597073054064910577
 GameObject:
   m_ObjectHideFlags: 0
@@ -1801,7 +1745,6 @@ GameObject:
   - component: {fileID: 6597073054213620080}
   - component: {fileID: 6597073054213620081}
   - component: {fileID: 6597073054213620094}
-  - component: {fileID: 1271689179998593437}
   m_Layer: 5
   m_Name: AspirationButton
   m_TagString: Untagged
@@ -1923,19 +1866,6 @@ MonoBehaviour:
           m_StringArgument: aspiration
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &1271689179998593437
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6597073054213620092}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b5bde70eae2c534bb6878bd0eb57ecd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PlayerStateEvent: event:/UI_Portals
 --- !u!1 &8987031512915071432
 GameObject:
   m_ObjectHideFlags: 0

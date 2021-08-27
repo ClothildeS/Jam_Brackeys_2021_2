@@ -104,7 +104,7 @@ MonoBehaviour:
   destroyedByFire: 1
   health: 10
   fameEarning: 5
-  destroyedSound: event:/Wood_Small_Destruct
+  destroyedSound: 
 --- !u!50 &7679875473803545654
 Rigidbody2D:
   serializedVersion: 4
