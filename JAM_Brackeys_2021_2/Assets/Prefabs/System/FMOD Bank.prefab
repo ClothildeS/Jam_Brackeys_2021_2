@@ -46,6 +46,6 @@ MonoBehaviour:
   LoadEvent: 1
   UnloadEvent: 2
   Banks:
-  - Desktop/Master
+  - Master
   CollisionTag: 
   PreloadSamples: 0

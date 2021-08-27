@@ -18,7 +18,7 @@ public class MonsterBehaviour : MonoBehaviour
         {
             if (other.collider.GetComponent<Sensitivities>().destroyedByMonster == true)
             {
-                Destroy(other.collider.gameObject);
+                other.gameObject.GetComponent<Sensitivities>().TakeDamage(50);
             }
 
         }

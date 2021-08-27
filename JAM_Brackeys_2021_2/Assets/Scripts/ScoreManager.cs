@@ -20,7 +20,7 @@ public class ScoreManager : MonoBehaviour
 
     private void Update()
     {
-        fameScore = score;
+        // fameScore = score;
 
         scoreSlider.value = Mathf.Clamp(fameScore, 0, 100);
 
@@ -29,7 +29,7 @@ public class ScoreManager : MonoBehaviour
         {
 
             // launch chaos animation
-            GameObject.Find("Chaos").GetComponent<Animator>().SetTrigger("Chaos_Appearance");
+            GameObject.Find("Chaos_All").GetComponent<Animator>().SetTrigger("Chaos_Appearance");
 
 
         }

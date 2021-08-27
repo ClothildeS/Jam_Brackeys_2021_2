@@ -93,6 +93,7 @@ GameObject:
   - component: {fileID: 7419392713148630613}
   - component: {fileID: 7419392713148630612}
   - component: {fileID: 8164860488796022227}
+  - component: {fileID: 1353985831183717748}
   m_Layer: 0
   m_Name: FlamesTransition
   m_TagString: Untagged
@@ -148,6 +149,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlayerStateEvent: event:/Transition_Flames
+--- !u!114 &1353985831183717748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7419392713148630615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f68165321a61e04087ab91a34c0254e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7419392713474144275
 GameObject:
   m_ObjectHideFlags: 0

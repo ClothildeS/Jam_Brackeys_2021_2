@@ -12,7 +12,7 @@ public class DestroyPoint : MonoBehaviour
 
             if (other.gameObject.GetComponent<Sensitivities>().destroyedByAspiration == true)
             {
-                Destroy(other.gameObject);
+                other.gameObject.GetComponent<Sensitivities>().TakeDamage(50);
             }
         }
 

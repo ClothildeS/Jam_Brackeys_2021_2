@@ -23,7 +23,7 @@ public class ProjectileDeath : MonoBehaviour
             if (other.collider.GetComponent<Sensitivities>().destroyedByProjectile == true)
             {
                 PlaySound();
-                Destroy(other.collider.gameObject);
+                other.collider.GetComponent<Sensitivities>().TakeDamage(1);
             }
 
             PlaySound();
