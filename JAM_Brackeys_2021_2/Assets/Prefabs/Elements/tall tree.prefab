@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8499484154094195420}
   - component: {fileID: 4630649679141112793}
   - component: {fileID: 1841178865724253345}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: tall tree
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -102,9 +102,9 @@ MonoBehaviour:
   destroyedByGaz: 0
   destroyedByAspiration: 0
   destroyedByFire: 1
-  health: 10
+  health: 30
   fameEarning: 5
-  destroyedSound: 
+  destroyedSound: event:/Tree
 --- !u!50 &4630649679141112793
 Rigidbody2D:
   serializedVersion: 4

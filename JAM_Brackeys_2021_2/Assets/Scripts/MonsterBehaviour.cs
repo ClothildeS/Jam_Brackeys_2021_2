@@ -104,6 +104,8 @@ public class MonsterBehaviour : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
+        Debug.Log("collision detected from monster with " + other.collider.name);
+
         // If the collider can be destroyed and is sensitive to monsters, destroy it at collision
         if (other.collider.GetComponent<Sensitivities>() != null)
         {

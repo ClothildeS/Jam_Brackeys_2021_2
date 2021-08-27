@@ -6,6 +6,8 @@ public class ProjectileDeath : MonoBehaviour
 {
     public float lifeTime = 6;
     private float counter;
+    public bool sound3D;
+    public float damage;
 
     [FMODUnity.EventRef]
     public string SoundEvent = "";
@@ -23,7 +25,7 @@ public class ProjectileDeath : MonoBehaviour
             if (other.collider.GetComponent<Sensitivities>().destroyedByProjectile == true)
             {
                 PlaySound();
-                other.collider.GetComponent<Sensitivities>().TakeDamage(1);
+                other.collider.GetComponent<Sensitivities>().TakeDamage(damage);
             }
 
             PlaySound();
@@ -49,6 +51,10 @@ public class ProjectileDeath : MonoBehaviour
     public void PlaySound()
     {
         projectileDeath = FMODUnity.RuntimeManager.CreateInstance(SoundEvent);
+        if (sound3D)
+        {
+            projectileDeath.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(gameObject.transform));
+        }
         projectileDeath.start();
     }
 }

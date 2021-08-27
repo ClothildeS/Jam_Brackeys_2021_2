@@ -33,6 +33,7 @@ public class ScoreManager : MonoBehaviour
 
             // launch chaos animation
             GameObject.Find("Chaos_All").GetComponent<Animator>().SetTrigger("Chaos_Appearance");
+            GameObject.Find("Chaos v1").GetComponent<Animator>().SetTrigger("StartTransition");
 
 
         }

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1277187482556399835}
   - component: {fileID: 2598048844272540126}
   - component: {fileID: 9061364073290167974}
-  m_Layer: 8
+  m_Layer: 7
   m_Name: bench
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100,7 +100,7 @@ MonoBehaviour:
   destroyedByProjectile: 0
   destroyedByMonster: 0
   destroyedByGaz: 0
-  destroyedByAspiration: 1
+  destroyedByAspiration: 0
   destroyedByFire: 1
   health: 10
   fameEarning: 5
@@ -113,7 +113,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5098031623512609016}
-  m_BodyType: 0
+  m_BodyType: 2
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0

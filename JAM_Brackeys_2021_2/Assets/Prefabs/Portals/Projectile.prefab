@@ -74,7 +74,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 9
+  m_SortingOrder: 20
   m_Sprite: {fileID: -6013545284907231949, guid: fee63400635be024c88bc87d8f8b9e4d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -136,6 +136,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lifeTime: 6
+  sound3D: 1
+  damage: 10
   SoundEvent: event:/Projectile_Hit
 --- !u!114 &6953680904321120093
 MonoBehaviour:

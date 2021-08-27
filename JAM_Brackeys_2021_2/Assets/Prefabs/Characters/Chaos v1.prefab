@@ -102,7 +102,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 4
+  m_SortingOrder: 32
   m_Sprite: {fileID: -4157621664098552891, guid: 2e6540bf492e05f44a8e5d6df969f594, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -239,7 +239,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 33
   m_Sprite: {fileID: 48058206876718746, guid: 2e6540bf492e05f44a8e5d6df969f594, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -498,7 +498,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 6
+  m_SortingOrder: 34
   m_Sprite: {fileID: -7181881737853868122, guid: 2e6540bf492e05f44a8e5d6df969f594, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -633,7 +633,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 32
   m_Sprite: {fileID: 2394997776121235221, guid: 2e6540bf492e05f44a8e5d6df969f594, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -675,6 +675,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6428955520503978772}
   - component: {fileID: 6072425402348268117}
+  - component: {fileID: 9184067124088574320}
   m_Layer: 0
   m_Name: Chaos v1
   m_TagString: Untagged
@@ -690,7 +691,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6955556293369626491}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.8803453, y: -9.251862, z: 0}
+  m_LocalPosition: {x: 0, y: -9.251862, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4216324859106444539}
@@ -722,6 +723,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &9184067124088574320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6955556293369626491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b5bde70eae2c534bb6878bd0eb57ecd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound3D: 0
+  PlayerStateEvent: event:/Chaos_Laugh_Closed
 --- !u!1 &7008367745884072314
 GameObject:
   m_ObjectHideFlags: 0
@@ -824,7 +839,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 32
   m_Sprite: {fileID: -5707854371300482642, guid: 2e6540bf492e05f44a8e5d6df969f594, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -929,7 +944,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 32
   m_Sprite: {fileID: 2746882833069874260, guid: 2e6540bf492e05f44a8e5d6df969f594, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

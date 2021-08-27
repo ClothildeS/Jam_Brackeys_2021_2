@@ -16,7 +16,7 @@ public class GhostSpawner : MonoBehaviour
     }
     public void SpawnGhost()
     {
-        ghostPos = new Vector3(transform.position.x, Mathf.Clamp(transform.position.y, -7, -4), 0);
+        ghostPos = new Vector3(transform.position.x, Mathf.Clamp(transform.position.y, -6, -4), 0);
         Instantiate(ghostPrefab, ghostPos, Quaternion.identity);
     }
 }

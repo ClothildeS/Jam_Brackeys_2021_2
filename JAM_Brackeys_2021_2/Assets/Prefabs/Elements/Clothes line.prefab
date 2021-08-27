@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6530436808324606209}
   - component: {fileID: 8005044134948761604}
   - component: {fileID: 3952418912414015356}
-  m_Layer: 8
+  m_Layer: 7
   m_Name: Clothes line
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100,7 +100,7 @@ MonoBehaviour:
   destroyedByProjectile: 0
   destroyedByMonster: 0
   destroyedByGaz: 0
-  destroyedByAspiration: 1
+  destroyedByAspiration: 0
   destroyedByFire: 1
   health: 10
   fameEarning: 5

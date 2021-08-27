@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6855325921355273523}
   - component: {fileID: 7679875473803545654}
   - component: {fileID: 3700295575410008910}
-  m_Layer: 8
+  m_Layer: 7
   m_Name: Fence v2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -100,7 +100,7 @@ MonoBehaviour:
   destroyedByProjectile: 0
   destroyedByMonster: 0
   destroyedByGaz: 0
-  destroyedByAspiration: 1
+  destroyedByAspiration: 0
   destroyedByFire: 1
   health: 10
   fameEarning: 5
@@ -113,7 +113,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 587052783176008976}
-  m_BodyType: 0
+  m_BodyType: 2
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -136,7 +136,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.0887661, y: -0.60247993}
