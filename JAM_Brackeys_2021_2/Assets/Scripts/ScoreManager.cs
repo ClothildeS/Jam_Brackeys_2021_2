@@ -21,8 +21,11 @@ public class ScoreManager : MonoBehaviour
     private void Update()
     {
         // fameScore = score;
+        if (scoreSlider != null)
+        {
+            scoreSlider.value = Mathf.Clamp(fameScore, 0, 100);
+        }
 
-        scoreSlider.value = Mathf.Clamp(fameScore, 0, 100);
 
 
         if (fameScore >= 100)

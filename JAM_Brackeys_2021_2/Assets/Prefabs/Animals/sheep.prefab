@@ -104,7 +104,7 @@ MonoBehaviour:
   destroyedByFire: 0
   health: 10
   fameEarning: 5
-  destroyedSound: 
+  destroyedSound: event:/Sheep
 --- !u!50 &6594243196497176073
 Rigidbody2D:
   serializedVersion: 4

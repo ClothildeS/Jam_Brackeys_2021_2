@@ -104,7 +104,7 @@ MonoBehaviour:
   destroyedByFire: 1
   health: 10
   fameEarning: 5
-  destroyedSound: 
+  destroyedSound: event:/Metal_Destruct
 --- !u!50 &4574791670006203524
 Rigidbody2D:
   serializedVersion: 4

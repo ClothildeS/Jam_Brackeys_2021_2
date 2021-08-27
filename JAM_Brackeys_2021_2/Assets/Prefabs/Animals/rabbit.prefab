@@ -104,7 +104,7 @@ MonoBehaviour:
   destroyedByFire: 0
   health: 10
   fameEarning: 5
-  destroyedSound: 
+  destroyedSound: event:/Rabbit
 --- !u!50 &2210418828753882199
 Rigidbody2D:
   serializedVersion: 4

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7286047741184273636}
   - component: {fileID: 3897163617735820934}
   - component: {fileID: 3340733706287653558}
+  - component: {fileID: 877101012631261338}
   m_Layer: 0
   m_Name: Ghost
   m_TagString: Untagged
@@ -102,6 +103,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &877101012631261338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1862744577377602066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b5bde70eae2c534bb6878bd0eb57ecd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerStateEvent: event:/Ghost
 --- !u!1 &4370642555607461631
 GameObject:
   m_ObjectHideFlags: 0
