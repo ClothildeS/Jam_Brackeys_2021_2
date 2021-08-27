@@ -2123,7 +2123,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 04a64aa94d5492f429220e9453bba972, type: 3}
-<<<<<<< Updated upstream
 --- !u!1001 &5553973584308540166
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2137,7 +2136,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1368020139369694690, guid: 9b8ae278beac8ee49ac657fb12a83a12, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -21.398323
+      value: -21.52
       objectReference: {fileID: 0}
     - target: {fileID: 1368020139369694690, guid: 9b8ae278beac8ee49ac657fb12a83a12, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2295,8 +2294,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff043ffae804d024f908f42a9c1c475f, type: 3}
-=======
->>>>>>> Stashed changes
 --- !u!1001 &6508015591418676829
 PrefabInstance:
   m_ObjectHideFlags: 0
