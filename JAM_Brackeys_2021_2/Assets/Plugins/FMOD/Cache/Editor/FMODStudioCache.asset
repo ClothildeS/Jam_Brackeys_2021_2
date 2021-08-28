@@ -684,6 +684,28 @@ MonoBehaviour:
   MinDistance: 0.4
   MaxDistance: 100
   Length: 9439
+--- !u!114 &-8458116833239924068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Play_Music_01/Fame
+  m_EditorClassIdentifier: 
+  Name: Fame
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &-8446224483336810430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2397,6 +2419,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 1
+--- !u!114 &-6664821233663875662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Amb_01/Fame
+  m_EditorClassIdentifier: 
+  Name: Fame
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &-6649942555617319519
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3076,6 +3120,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &-5953632458487046852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Play_Music_01/Fame
+  m_EditorClassIdentifier: 
+  Name: Fame
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &-5904506793747671507
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4197,7 +4263,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 2873590723729394797}
+  - {fileID: -8458116833239924068}
   MinDistance: 0
   MaxDistance: 0
   Length: 29906
@@ -4532,6 +4598,28 @@ MonoBehaviour:
   Type: 1
   IsGlobal: 0
   Exists: 0
+--- !u!114 &-4418024698593227419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Play_Music_01/Fame
+  m_EditorClassIdentifier: 
+  Name: Fame
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &-4387128863380968670
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5236,7 +5324,7 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: 8134693731220800107}
+  - {fileID: 6649785068590940272}
   MinDistance: 0.59999996
   MaxDistance: 100
   Length: 180
@@ -6803,6 +6891,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &-2046205319341578742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Amb_01/Fame
+  m_EditorClassIdentifier: 
+  Name: Fame
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &-2043812912647263765
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9196,6 +9306,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &617135721321785244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Amb_01/Fame
+  m_EditorClassIdentifier: 
+  Name: Fame
+  Min: 0
+  Max: 100
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &665390206701080239
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13884,6 +14016,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 1
+--- !u!114 &5976745077748353111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/Footsteps
+  m_EditorClassIdentifier: 
+  Name: Footsteps
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &5989891557156973389
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14346,7 +14500,7 @@ MonoBehaviour:
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -3647689859862319635}
+  - {fileID: -6664821233663875662}
   MinDistance: 0
   MaxDistance: 0
   Length: 162818
@@ -14439,6 +14593,28 @@ MonoBehaviour:
   IsGlobal: 0
   Exists: 1
 --- !u!114 &6635633150557409437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/Footsteps
+  m_EditorClassIdentifier: 
+  Name: Footsteps
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
+  IsGlobal: 0
+  Exists: 1
+--- !u!114 &6649785068590940272
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -16884,6 +17060,28 @@ MonoBehaviour:
     data1: 0
     data2: 0
   Type: 0
+  IsGlobal: 0
+  Exists: 1
+--- !u!114 &8832709747480318689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Footsteps/Footsteps
+  m_EditorClassIdentifier: 
+  Name: Footsteps
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 1
   IsGlobal: 0
   Exists: 1
 --- !u!114 &8843793406253440046
