@@ -701,7 +701,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9080206409927938233, guid: a4b5ef5180b3f014ba9b4d4d2d038ea6, type: 3}
       propertyPath: AmbienceSound
-      value: event:/Amb_01
+      value: event:/Amb_04
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a4b5ef5180b3f014ba9b4d4d2d038ea6, type: 3}
@@ -774,6 +774,10 @@ PrefabInstance:
     - target: {fileID: 1365247561511310206, guid: e6cd4b53c1f53d141bfe1ca81218e9b9, type: 3}
       propertyPath: m_BodyType
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4981714858580442930, guid: e6cd4b53c1f53d141bfe1ca81218e9b9, type: 3}
+      propertyPath: m_SortingOrder
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 8089469904191642200, guid: e6cd4b53c1f53d141bfe1ca81218e9b9, type: 3}
       propertyPath: m_Name

@@ -1013,7 +1013,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9080206409927938233, guid: a4b5ef5180b3f014ba9b4d4d2d038ea6, type: 3}
       propertyPath: AmbienceSound
-      value: event:/Amb_01
+      value: event:/Amb_05
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a4b5ef5180b3f014ba9b4d4d2d038ea6, type: 3}

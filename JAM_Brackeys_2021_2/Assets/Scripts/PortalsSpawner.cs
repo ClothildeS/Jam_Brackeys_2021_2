@@ -53,7 +53,7 @@ public class PortalsSpawner : MonoBehaviour
             }
             else
             {
-                Debug.Log("Over UI elements");
+                Debug.Log("Can't spawn portals over UI elements");
             }
         }
     }

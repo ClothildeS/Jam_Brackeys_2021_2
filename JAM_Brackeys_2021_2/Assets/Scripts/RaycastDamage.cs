@@ -14,7 +14,7 @@ public class RaycastDamage : MonoBehaviour
         // If it hits something
         if (hit.collider != null)
         {
-            Debug.Log("hit something with fire raycast");
+            //Debug.Log("hit something with fire raycast");
             // If collider is sensitive
             if (hit.collider.GetComponent<Sensitivities>() != null)
             {

@@ -48,9 +48,12 @@ public class MonsterBehaviour : MonoBehaviour
 
         if (GameObject.FindGameObjectsWithTag("MonsterDestroy") == null)
         {
-            return;
+            target = null;
         }
-        target = FindClosestTarget().transform;
+        else if (GameObject.FindGameObjectsWithTag("MonsterDestroy") != null && FindClosestTarget() != null)
+        {
+            target = FindClosestTarget().transform;
+        }
 
 
 
@@ -104,7 +107,7 @@ public class MonsterBehaviour : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        Debug.Log("collision detected from monster with " + other.collider.name);
+        //Debug.Log("collision detected from monster with " + other.collider.name);
 
         // If the collider can be destroyed and is sensitive to monsters, destroy it at collision
         if (other.collider.GetComponent<Sensitivities>() != null)
@@ -122,11 +125,6 @@ public class MonsterBehaviour : MonoBehaviour
             GetComponent<Sensitivities>().TakeDamage(50);
         }
 
-        // Update footsteps material
-        if (other.collider.GetComponent<SetFootstepsMaterial>() != null)
-        {
-            GetComponentInChildren<Footsteps>().groundMaterial = other.collider.GetComponent<SetFootstepsMaterial>().materialName;
-        }
 
 
     }
