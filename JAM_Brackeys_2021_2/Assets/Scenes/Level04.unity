@@ -999,7 +999,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 777865298404564353, guid: 8bd85b3a6b62e424194a379cc842ce6b, type: 3}
       propertyPath: fameEarning
-      value: 10
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 2886008554945721520, guid: 8bd85b3a6b62e424194a379cc842ce6b, type: 3}
       propertyPath: m_RootOrder
@@ -2781,7 +2781,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8630188699774340881, guid: 693fd850e08bd3f4981b94468a8bc8b0, type: 3}
       propertyPath: fameEarning
-      value: 10
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 693fd850e08bd3f4981b94468a8bc8b0, type: 3}
