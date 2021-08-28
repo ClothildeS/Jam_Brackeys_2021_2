@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 8630188699774340881}
   - component: {fileID: 4788437403821987348}
   - component: {fileID: 1998898154397251948}
-  m_Layer: 7
+  m_Layer: 8
   m_Name: chair
-  m_TagString: Untagged
+  m_TagString: AspirationDestroy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2360507541401050930}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.47, y: -5.01, z: 0}
+  m_LocalPosition: {x: -11.47, y: -5.01, z: 0.02}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -100,8 +100,8 @@ MonoBehaviour:
   destroyedByProjectile: 0
   destroyedByMonster: 0
   destroyedByGaz: 0
-  destroyedByAspiration: 0
-  destroyedByFire: 1
+  destroyedByAspiration: 1
+  destroyedByFire: 0
   health: 10
   fameEarning: 5
   destroyedSound: event:/Wood_Small_Destruct
