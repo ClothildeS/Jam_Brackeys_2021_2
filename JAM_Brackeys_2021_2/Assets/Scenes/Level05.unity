@@ -885,6 +885,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6156023233083563825, guid: b4eb23de3d1f5914b89645c7a39a66ce, type: 3}
+      propertyPath: m_BodyType
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b4eb23de3d1f5914b89645c7a39a66ce, type: 3}
 --- !u!1001 &313971120
@@ -1039,6 +1043,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1841178865724253345, guid: d98d8e228b9916647bd2422100d6f7d4, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2518242480939090687, guid: d98d8e228b9916647bd2422100d6f7d4, type: 3}
       propertyPath: m_Name
       value: tall tree (2)
@@ -1169,6 +1177,10 @@ PrefabInstance:
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8005044134948761604, guid: 4baddb70fe3d4a243a8b71d99bd8639f, type: 3}
+      propertyPath: m_GravityScale
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8675732293334335536, guid: 4baddb70fe3d4a243a8b71d99bd8639f, type: 3}
       propertyPath: m_RootOrder
       value: 26
@@ -1222,6 +1234,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1841178865724253345, guid: d98d8e228b9916647bd2422100d6f7d4, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2518242480939090687, guid: d98d8e228b9916647bd2422100d6f7d4, type: 3}
       propertyPath: m_Name
       value: tall tree
@@ -2062,6 +2078,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2886008554945721520, guid: 8bd85b3a6b62e424194a379cc842ce6b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4574791670006203524, guid: 8bd85b3a6b62e424194a379cc842ce6b, type: 3}
+      propertyPath: m_GravityScale
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6759106590520184226, guid: 8bd85b3a6b62e424194a379cc842ce6b, type: 3}

@@ -23,14 +23,14 @@
 [LOG] SystemI::createSoundInternal             : exinfo->length             = 2615680
 [LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4832
 [LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000081832FF568
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000081833FEE38
 [LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
 [LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB855260E0
 [LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB855260B0
 [LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB855261B0
 [LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB85526270
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000025B30B5BCD8
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000025B30B5B8B8
 [LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
 [LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
 [LOG] SystemI::createSoundInternal             : Sample 0/1: name='Sound design_UI_portals2', format=5, channels=1, frequency=48000, lengthbytes=3680, lengthpcm=10551, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.069372.
@@ -39,71 +39,91 @@
 [LOG] SystemI::createSoundInternal             : exinfo->length             = 2615680
 [LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4832
 [LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000081832FF568
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000081833FEE38
 [LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
 [LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
 [LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB855260E0
 [LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB855260B0
 [LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB855261B0
 [LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB85526270
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000025B30B5BCD8
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000025B30B5B8B8
 [LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
 [LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
 [LOG] SystemI::createSoundInternal             : Sample 0/1: name='Sound design_UI_portals', format=5, channels=1, frequency=48000, lengthbytes=3680, lengthpcm=10551, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.069372.
-[LOG] SoundI::release                          : StandingTheme_Melody (0000025B55059358)
-[LOG] SoundI::release                          :     StandingTheme_Melody (0000025B2C894658)
-[LOG] SoundI::release                          :     StandingTheme_Melody (0000025B54C35158)
-[LOG] SystemI::createSound                     : filename = Assets/FMODBanks/Desktop/Master.streams.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     : setdata soundi = 0000025B54F05128 : node = 0000025B2FDBD820
-[LOG] SystemI::createSound                     : add node to async list : head = 0000025BBC1A4DD8.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000025B54F05128
-[LOG] SystemI::createSoundInternal             :     Create name='Assets/FMODBanks/Desktop/Master.streams.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSound                     : filename = Assets/FMODBanks/Desktop/Master.streams.bank : mode 02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 17546560
-[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 832
-[LOG] SystemI::createSound                     :     setdata soundi = 0000025B54F05638 : node = 0000025B2FDBB2A0
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSound                     :     add node to async list : head = 0000025BBC1A4DD8.  list count = 0
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000025B2FDBD930
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='StandingTheme_Melody', format=5, channels=1, frequency=48000, lengthbytes=464096, lengthpcm=1044923, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.081044.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000025B54F05128
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000025B54F05638
-[LOG] SystemI::createSoundInternal             :     Create name='Assets/FMODBanks/Desktop/Master.streams.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 17546560
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 832
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000025B2FDBB3B0
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='StandingTheme_Bass', format=5, channels=2, frequency=48000, lengthbytes=996352, lengthpcm=1435520, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.110537.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000025B54F05638
-[LOG] SoundI::release                          : StandingTheme_Bass (0000025B55057D68)
-[LOG] SoundI::release                          :     StandingTheme_Bass (0000025B2C893FD8)
-[LOG] SoundI::release                          :     StandingTheme_Bass (0000025B54C34588)
-[LOG] SoundI::release                          : StandingTheme_Bass (0000025B54F05638)
-[LOG] SoundI::release                          :     StandingTheme_Bass (0000025B2C894658)
-[LOG] SoundI::release                          :     StandingTheme_Bass (0000025B54F05998)
-[LOG] SoundI::release                          : StandingTheme_Melody (0000025B54F05128)
-[LOG] SoundI::release                          :     StandingTheme_Melody (0000025AE03AEEB8)
-[LOG] SoundI::release                          :     StandingTheme_Melody (0000025B54F057E8)
-[LOG] SoundI::release                          : Sound design_amb_prairie (0000025B550596B8)
-[LOG] SoundI::release                          :     Sound design_amb_prairie (0000025B2C893E38)
-[LOG] SoundI::release                          :     Sound design_amb_prairie (0000025B54C35D28)
-[LOG] SoundI::release                          : Sound design_amb_empty (0000025B55058938)
-[LOG] SoundI::release                          :     Sound design_amb_empty (0000025B2C8932D8)
-[LOG] SoundI::release                          :     Sound design_amb_empty (0000025B54C35668)
-[LOG] SoundI::release                          :  (0000025BDF931E98)
-[LOG] SoundI::release                          :     Sound design_UI_portals (0000025AE03AE838)
-[LOG] SoundI::release                          :  (0000025BDF931D28)
-[LOG] SoundI::release                          :     Sound design_UI_portals2 (0000025AE03AE698)
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 2615680
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4832
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000081833FEE38
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB855260E0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB855260B0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB855261B0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB85526270
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000025B2FFE6B48
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Sound design_Portal', format=5, channels=1, frequency=48000, lengthbytes=28160, lengthpcm=62664, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.356964.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 2615680
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4832
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000081833FEE38
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB855260E0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB855260B0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB855261B0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB85526270
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000025B2FFE6B48
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Sound design_Aspiration_Idle', format=5, channels=1, frequency=48000, lengthbytes=246560, lengthpcm=453111, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.017299.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 2615680
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 4832
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000081833FEE38
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFB855260E0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFB855260B0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFB855261B0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFB85526270
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000025B2FFE5288
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Sound design_FlowerPot', format=5, channels=1, frequency=48000, lengthbytes=14080, lengthpcm=18144, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.248931.
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000025B54C35158
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000025B54C35158
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000025B54C35308
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000025B54C35308
+[LOG] SoundI::release                          :  (0000025BDF932CF8)
+[LOG] SoundI::release                          :     Sound design_Portal (0000025B2F7A0E28)
+[LOG] SoundI::release                          :  (0000025BDF932A18)
+[LOG] SoundI::release                          :     Sound design_UI_portals (0000025B2F7A24E8)
+[LOG] SoundI::release                          :  (0000025BDF932B88)
+[LOG] SoundI::release                          :     Sound design_UI_portals2 (0000025B2F7A1E68)
+[LOG] SoundI::release                          : StandingTheme_Bass (0000025B55059358)
+[LOG] SoundI::release                          :     StandingTheme_Bass (0000025B313C30F8)
+[LOG] SoundI::release                          :     StandingTheme_Bass (0000025B54C35668)
+[LOG] SoundI::release                          : StandingTheme_Melody (0000025B55058788)
+[LOG] SoundI::release                          :     StandingTheme_Melody (0000025B313C2C18)
+[LOG] SoundI::release                          :     StandingTheme_Melody (0000025B54C35308)
+[LOG] SoundI::release                          : Sound design_amb_prairie (0000025B55057F18)
+[LOG] SoundI::release                          :     Sound design_amb_prairie (0000025B313C2738)
+[LOG] SoundI::release                          :     Sound design_amb_prairie (0000025B54C343D8)
+[LOG] SoundI::release                          : Sound design_amb_empty (0000025B55057D68)
+[LOG] SoundI::release                          :     Sound design_amb_empty (0000025B313C2A78)
+[LOG] SoundI::release                          :     Sound design_amb_empty (0000025B54C35158)
+[LOG] SoundI::release                          :  (0000025BDF932E68)
+[LOG] SoundI::release                          :     Sound design_Aspiration_Idle (0000025B2F7A2D08)
+[LOG] SoundI::release                          :  (0000025BDF92F098)
+[LOG] SoundI::release                          :     Sound design_FlowerPot (0000025B2F7A2EA8)
 [LOG] Thread::callback                         : FMOD Studio update thread finished.
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
