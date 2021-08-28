@@ -1440,6 +1440,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6508015592546276229, guid: 3bf2e59419fa76943b7d1778746113ef, type: 3}
+      propertyPath: score
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6508015592546276229, guid: 3bf2e59419fa76943b7d1778746113ef, type: 3}
       propertyPath: scoreSlider
       value: 
       objectReference: {fileID: 0}
@@ -1704,6 +1708,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 899393555}
   m_CullTransparentMesh: 1
+--- !u!1 &952552645 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1919335872745597003, guid: a4b5ef5180b3f014ba9b4d4d2d038ea6, type: 3}
+  m_PrefabInstance: {fileID: 1155683818}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &952552646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 952552645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb56bfdfb032fe4dbd9f45c483190a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MusicSound: event:/Play_Music_01
+  fame: 100
 --- !u!1 &962221756
 GameObject:
   m_ObjectHideFlags: 0
@@ -2127,7 +2150,8 @@ PrefabInstance:
       propertyPath: Ambience
       value: 
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9080206409927938233, guid: a4b5ef5180b3f014ba9b4d4d2d038ea6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a4b5ef5180b3f014ba9b4d4d2d038ea6, type: 3}
 --- !u!1 &1200634133
 GameObject:
