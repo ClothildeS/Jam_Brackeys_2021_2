@@ -122,6 +122,12 @@ public class MonsterBehaviour : MonoBehaviour
             GetComponent<Sensitivities>().TakeDamage(50);
         }
 
+        // Update footsteps material
+        if (other.collider.GetComponent<SetFootstepsMaterial>() != null)
+        {
+            GetComponentInChildren<Footsteps>().groundMaterial = other.collider.GetComponent<SetFootstepsMaterial>().materialName;
+        }
+
 
     }
 
